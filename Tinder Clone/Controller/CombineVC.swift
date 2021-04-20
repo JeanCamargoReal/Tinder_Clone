@@ -25,9 +25,14 @@ extension CombineVC {
         
         for item in 1...3 {
             
-            let redView = UIView()
-            redView.backgroundColor = item == 2 ? .blue : .red
-            redView.frame = CGRect(x: 0, y: 0, width: 200, height: 300)
+            let redView = CombineCardView()
+            
+            redView.frame = CGRect(
+                x: 0,
+                y: 0,
+                width: view.bounds.width - 32,
+                height: view.bounds.height * 0.7
+            )
             
             redView.center = view.center
             

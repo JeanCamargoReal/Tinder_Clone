@@ -14,6 +14,8 @@
 		C570AFE1262E022000EFDF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C570AFE0262E022000EFDF04 /* Assets.xcassets */; };
 		C570AFE4262E022000EFDF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C570AFE2262E022000EFDF04 /* LaunchScreen.storyboard */; };
 		C570AFEE262E02A200EFDF04 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570AFED262E02A200EFDF04 /* CombineVC.swift */; };
+		C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B018262F5D4700EFDF04 /* CombineCardView.swift */; };
+		C570B01E262F617100EFDF04 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B01D262F617100EFDF04 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C570AFE3262E022000EFDF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C570AFE5262E022000EFDF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C570AFED262E02A200EFDF04 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
+		C570B018262F5D4700EFDF04 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
+		C570B01D262F617100EFDF04 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		C570AFD6262E021E00EFDF04 /* Tinder Clone */ = {
 			isa = PBXGroup;
 			children = (
+				C570B01C262F612700EFDF04 /* Lib */,
+				C570B017262F5D3A00EFDF04 /* View */,
 				C570AFEC262E028D00EFDF04 /* Controller */,
 				C570AFD7262E021E00EFDF04 /* AppDelegate.swift */,
 				C570AFD9262E021E00EFDF04 /* SceneDelegate.swift */,
@@ -76,6 +82,22 @@
 				C570AFED262E02A200EFDF04 /* CombineVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C570B017262F5D3A00EFDF04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C570B018262F5D4700EFDF04 /* CombineCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C570B01C262F612700EFDF04 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C570B01D262F617100EFDF04 /* UIView.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +172,9 @@
 			files = (
 				C570AFEE262E02A200EFDF04 /* CombineVC.swift in Sources */,
 				C570AFDC262E021E00EFDF04 /* ViewController.swift in Sources */,
+				C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */,
 				C570AFD8262E021E00EFDF04 /* AppDelegate.swift in Sources */,
+				C570B01E262F617100EFDF04 /* UIView.swift in Sources */,
 				C570AFDA262E021E00EFDF04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
