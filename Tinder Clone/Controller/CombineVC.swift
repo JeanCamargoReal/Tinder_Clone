@@ -9,12 +9,21 @@ import UIKit
 
 class CombineVC: UIViewController {
     
+    var usuarios: [Usuario] = []
+    
     override func viewDidLoad() {
         super .viewDidLoad()
         
         view.backgroundColor = UIColor.systemGroupedBackground
         
         self.adicionarCards()
+        self.buscaUsuarios()
+    }
+    
+    func buscaUsuarios() {
+        self.usuarios = UsuarioService.shared.buscaUsuarios()
+        
+        print(self.usuarios)
     }
 }
 
@@ -23,7 +32,7 @@ extension CombineVC {
     
     func adicionarCards() {
         
-        for item in 1...3 {
+        for usuario in usuarios {
             
             let redView = CombineCardView()
             

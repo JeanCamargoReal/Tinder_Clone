@@ -17,6 +17,8 @@
 		C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B018262F5D4700EFDF04 /* CombineCardView.swift */; };
 		C570B01E262F617100EFDF04 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B01D262F617100EFDF04 /* UIView.swift */; };
 		C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0202630A1CC00EFDF04 /* UILabel.swift */; };
+		C570B03E2630BDA000EFDF04 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B03D2630BDA000EFDF04 /* Usuario.swift */; };
+		C570B0432630C34900EFDF04 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0422630C34900EFDF04 /* UsuarioService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C570B018262F5D4700EFDF04 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
 		C570B01D262F617100EFDF04 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C570B0202630A1CC00EFDF04 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		C570B03D2630BDA000EFDF04 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		C570B0422630C34900EFDF04 /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		C570AFCB262E021E00EFDF04 = {
 			isa = PBXGroup;
 			children = (
+				C570B0412630C31600EFDF04 /* Service */,
 				C570AFD6262E021E00EFDF04 /* Tinder Clone */,
 				C570AFD5262E021E00EFDF04 /* Products */,
 			);
@@ -64,6 +69,7 @@
 		C570AFD6262E021E00EFDF04 /* Tinder Clone */ = {
 			isa = PBXGroup;
 			children = (
+				C570B03C2630BD9200EFDF04 /* Model */,
 				C570B01C262F612700EFDF04 /* Lib */,
 				C570B017262F5D3A00EFDF04 /* View */,
 				C570AFEC262E028D00EFDF04 /* Controller */,
@@ -101,6 +107,22 @@
 				C570B0202630A1CC00EFDF04 /* UILabel.swift */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		C570B03C2630BD9200EFDF04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C570B03D2630BDA000EFDF04 /* Usuario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C570B0412630C31600EFDF04 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C570B0422630C34900EFDF04 /* UsuarioService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C570B0432630C34900EFDF04 /* UsuarioService.swift in Sources */,
+				C570B03E2630BDA000EFDF04 /* Usuario.swift in Sources */,
 				C570AFEE262E02A200EFDF04 /* CombineVC.swift in Sources */,
 				C570AFDC262E021E00EFDF04 /* ViewController.swift in Sources */,
 				C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */,
