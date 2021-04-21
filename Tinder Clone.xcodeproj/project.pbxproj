@@ -16,6 +16,7 @@
 		C570AFEE262E02A200EFDF04 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570AFED262E02A200EFDF04 /* CombineVC.swift */; };
 		C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B018262F5D4700EFDF04 /* CombineCardView.swift */; };
 		C570B01E262F617100EFDF04 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B01D262F617100EFDF04 /* UIView.swift */; };
+		C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0202630A1CC00EFDF04 /* UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C570AFED262E02A200EFDF04 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
 		C570B018262F5D4700EFDF04 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
 		C570B01D262F617100EFDF04 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		C570B0202630A1CC00EFDF04 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C570B01D262F617100EFDF04 /* UIView.swift */,
+				C570B0202630A1CC00EFDF04 /* UILabel.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				C570AFEE262E02A200EFDF04 /* CombineVC.swift in Sources */,
 				C570AFDC262E021E00EFDF04 /* ViewController.swift in Sources */,
+				C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */,
 				C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */,
 				C570AFD8262E021E00EFDF04 /* AppDelegate.swift in Sources */,
 				C570B01E262F617100EFDF04 /* UIView.swift in Sources */,
