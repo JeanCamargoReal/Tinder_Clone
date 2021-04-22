@@ -19,6 +19,7 @@
 		C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0202630A1CC00EFDF04 /* UILabel.swift */; };
 		C570B03E2630BDA000EFDF04 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B03D2630BDA000EFDF04 /* Usuario.swift */; };
 		C570B0432630C34900EFDF04 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0422630C34900EFDF04 /* UsuarioService.swift */; };
+		C570B0472631034700EFDF04 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570B0462631034700EFDF04 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C570B0202630A1CC00EFDF04 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		C570B03D2630BDA000EFDF04 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		C570B0422630C34900EFDF04 /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
+		C570B0462631034700EFDF04 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				C570B01D262F617100EFDF04 /* UIView.swift */,
 				C570B0202630A1CC00EFDF04 /* UILabel.swift */,
+				C570B0462631034700EFDF04 /* UIImageView.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				C570AFDC262E021E00EFDF04 /* ViewController.swift in Sources */,
 				C570B0212630A1CC00EFDF04 /* UILabel.swift in Sources */,
 				C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */,
+				C570B0472631034700EFDF04 /* UIImageView.swift in Sources */,
 				C570AFD8262E021E00EFDF04 /* AppDelegate.swift in Sources */,
 				C570B01E262F617100EFDF04 /* UIView.swift in Sources */,
 				C570AFDA262E021E00EFDF04 /* SceneDelegate.swift in Sources */,
