@@ -9,13 +9,25 @@ import UIKit
 
 class CombineVC: UIViewController {
     
+    // header
+    var perfilButton: UIButton = .iconMenu(named: "icone-perfil")
+    var chatButton: UIButton = .iconMenu(named: "icone-chat")
+    var logoButton: UIButton = .iconMenu(named: "icone-logo")
+    // footer
+    var deslikeButton: UIButton = .iconFooter(named: "icone-deslike")
+    var superLikeButton: UIButton = .iconFooter(named: "icone-superlike")
+    var likeButton: UIButton = .iconFooter(named: "icone-like")
+    
     var usuarios: [Usuario] = []
     
     override func viewDidLoad() {
         super .viewDidLoad()
         
+        navigationController?.navigationBar.isHidden = true
         view.backgroundColor = UIColor.systemGroupedBackground
         
+        self.adicionarHeader()
+        self.adicionarFooter()
         self.buscaUsuarios()
     }
     
@@ -25,6 +37,41 @@ class CombineVC: UIViewController {
     }
 }
 
+extension CombineVC {
+    func adicionarHeader() {
+        
+        let window = UIApplication.shared.windows.first { $0.isKeyWindow }
+        let top: CGFloat = window?.safeAreaInsets.top ?? 44
+        
+        let stackView = UIStackView(arrangedSubviews: [perfilButton, logoButton, chatButton])
+        stackView.distribution = .equalCentering
+        
+        view.addSubview(stackView)
+        stackView.preencher(
+            top: view.topAnchor,
+            leading: view.leadingAnchor,
+            trailing: view.trailingAnchor,
+            bottom: nil,
+            padding: .init(top: top, left: 16, bottom: 0, right: 16)
+        )
+    }
+}
+
+extension CombineVC {
+    func adicionarFooter() {
+        let stackView = UIStackView(arrangedSubviews: [UIView(), deslikeButton, superLikeButton, likeButton, UIView()])
+        stackView.distribution = .equalCentering
+        
+        view.addSubview(stackView)
+        stackView.preencher(
+            top: nil,
+            leading: view.leadingAnchor,
+            trailing: view.trailingAnchor,
+            bottom: view.bottomAnchor,
+            padding: .init(top: 0, left: 16, bottom: 34, right: 16)
+        )
+    }
+}
 
 extension CombineVC {
     

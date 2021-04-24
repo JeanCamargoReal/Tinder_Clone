@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50D259E2634B8D90078C1FC /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D259D2634B8D90078C1FC /* UIButton.swift */; };
 		C570AFD8262E021E00EFDF04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570AFD7262E021E00EFDF04 /* AppDelegate.swift */; };
 		C570AFDA262E021E00EFDF04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570AFD9262E021E00EFDF04 /* SceneDelegate.swift */; };
 		C570AFDC262E021E00EFDF04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570AFDB262E021E00EFDF04 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50D259D2634B8D90078C1FC /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		C570AFD4262E021E00EFDF04 /* Tinder Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C570AFD7262E021E00EFDF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C570AFD9262E021E00EFDF04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				C570B01D262F617100EFDF04 /* UIView.swift */,
 				C570B0202630A1CC00EFDF04 /* UILabel.swift */,
 				C570B0462631034700EFDF04 /* UIImageView.swift */,
+				C50D259D2634B8D90078C1FC /* UIButton.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				C570B019262F5D4700EFDF04 /* CombineCardView.swift in Sources */,
 				C570B0472631034700EFDF04 /* UIImageView.swift in Sources */,
 				C570AFD8262E021E00EFDF04 /* AppDelegate.swift in Sources */,
+				C50D259E2634B8D90078C1FC /* UIButton.swift in Sources */,
 				C570B01E262F617100EFDF04 /* UIView.swift in Sources */,
 				C570AFDA262E021E00EFDF04 /* SceneDelegate.swift in Sources */,
 			);
