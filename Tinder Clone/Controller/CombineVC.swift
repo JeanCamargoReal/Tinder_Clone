@@ -118,6 +118,12 @@ extension CombineVC {
         self.usuarios = self.usuarios.filter({ (usuario) -> Bool in
             return usuario.id != card.tag})
     }
+    
+    func verificarMatch(usuario: Usuario) {
+        if usuario.match {
+            print("Deu match")
+        }
+    }
 }
 
 extension CombineVC {
@@ -202,7 +208,13 @@ extension CombineVC {
                             like = true
                         }
                         
-                        UIView.animate(withDuration: 0.6, animations: {
+                        if like {
+                            if like {
+                                self.verificarMatch(usuario: usuario)
+                            }
+                        }
+                        
+                        UIView.animate(withDuration: 0.4, animations: {
                             card.center = center
                             card.transform = CGAffineTransform(rotationAngle: rotationAngle)
                             
